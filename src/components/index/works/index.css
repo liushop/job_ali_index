@@ -1,0 +1,111 @@
+.works-box{
+    height: 364px;
+    width: 100%;
+    overflow: hidden;
+}
+.works-box .works{
+    width: 1180px;
+    height: 300px;
+    margin: 32px auto;
+}
+.works-box .works .left{
+    width: 850px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+    border-radius: 3px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.works-box .works .left .title{
+    height: 49px;
+    border-bottom: 1px solid rgba(31,56,88,.06);
+    line-height: 49px;
+    padding: 0 14px;
+    background: #fff;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    z-index: 2
+}
+.works-box .works .left .title a{
+    float: right;
+    font-size: 14px;
+    color: rgba(31,56,88,.6);
+    cursor: pointer;
+    text-decoration: none;
+}
+.works-box .works .left ul{
+    position: absolute;
+    width: 100%;
+    z-index: 1
+}
+.works-box .works .left ul li{
+    overflow: hidden;
+    padding: 0 14px;
+    line-height: 50px;
+}
+.works-box .works .left ul li a{
+    float: left;
+    color: #3C99D8;
+    cursor: pointer;
+    font-size: 14px;
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.works-box .works .left ul li .time{
+    font-style: normal;
+    font-size: 14px;
+    width: 70px;
+    text-align: right;
+    float: right;
+    color: rgba(31,56,88,.6)
+}
+.works-box .works .left ul li .city{
+    float: right;
+    font-style: normal;
+    color: rgba(0,0,0,.6);
+    width: 202px;
+    margin-right: 70px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.works-box .works .right{
+    width: 310px;
+    float: right;
+}
+.works-box .works .right a{
+    display: block;
+    cursor: pointer;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 140px;
+}
+.works-box .works .right .aliyun{
+    margin-bottom: 20px;
+}
+.works-box .works .right .aliyun img{
+    width: 179px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 140px;
+    border: 0
+}
+.works-box .works .right .intelligent img{
+    width: 260px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 140px;
+}
+.job-list{
+    float: left;
+}
